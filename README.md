@@ -27,3 +27,7 @@ python3 build.py --ide /Applications/GoLand.app
 ```
 
 The ZIP is written to `build/`.
+
+## License
+
+[MIT](LICENSE)

@@ -34,5 +34,6 @@ with tempfile.TemporaryDirectory(dir=build) as staging:
     package = Path(staging) / f"hide-comment-lines-{version}.zip"
     with ZipFile(package, "w", ZIP_DEFLATED) as archive:
         archive.write(jar, f"hide-comment-lines/lib/{jar.name}")
+        archive.write(root / "LICENSE", "hide-comment-lines/LICENSE")
     package.replace(build / package.name)
     print(build / package.name)
