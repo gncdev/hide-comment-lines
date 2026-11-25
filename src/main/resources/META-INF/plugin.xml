@@ -1,9 +1,9 @@
-<idea-plugin>
+<idea-plugin url="https://github.com/gncdev/hide-comment-lines">
   <id>dev.hidecommentlines</id>
   <name>Hide Comment Lines</name>
   <version>1.0.2</version>
-  <vendor>Hide Comment Lines</vendor>
-  <description>Hide comment-only lines in the editor and show them again from the View menu.</description>
+  <vendor url="https://github.com/gncdev">gncdev</vendor>
+  <description>Hide comment-only lines while reading code. The comments stay in the source file, and inline comments stay visible. Use View → Hide Comment Lines to switch between views. Each project remembers your choice.</description>
   <idea-version since-build="252" until-build="263.*"/>
   <depends>com.intellij.modules.platform</depends>
   <extensions defaultExtensionNs="com.intellij">
