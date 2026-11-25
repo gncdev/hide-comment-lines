@@ -1,0 +1,22 @@
+<idea-plugin>
+  <id>dev.hidecommentlines</id>
+  <name>Hide Comment Lines</name>
+  <version>1.0.2</version>
+  <vendor>Hide Comment Lines</vendor>
+  <description>Hide comment-only lines in the editor and show them again from the View menu.</description>
+  <idea-version since-build="252" until-build="263.*"/>
+  <depends>com.intellij.modules.platform</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <editorFactoryListener implementation="dev.hidecommentlines.CommentEditorListener"/>
+  </extensions>
+  <applicationListeners>
+    <listener class="dev.hidecommentlines.CommentEditorListener"
+              topic="com.intellij.ide.plugins.DynamicPluginListener"/>
+  </applicationListeners>
+  <actions>
+    <action id="HideCommentLines.Toggle" class="dev.hidecommentlines.ToggleComments"
+            text="Hide Comment Lines" description="Toggle comment-only lines in this project">
+      <add-to-group group-id="ViewMenu" anchor="last"/>
+    </action>
+  </actions>
+</idea-plugin>
