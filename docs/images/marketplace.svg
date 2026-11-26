@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="346" height="108" viewBox="0 0 346 108">
+  <title>Get Hide Comment Lines from JetBrains Marketplace</title>
+  <rect x="0.5" y="0.5" width="345" height="107" rx="12" fill="#FFFFFF" stroke="#C9D4D1"/>
+  <g transform="translate(15 13)">
+    <path fill="#40998F" d="m3 28 5 5h8l-5-5zm15 0 5 5h8l-5-5z"/>
+    <path fill="#126C67" d="M12 7h8l-9 21H3zm15 0h8l-9 21h-8z"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="66" y="31" fill="#172B29" font-size="18" font-weight="bold">Hide Comment Lines</text>
+    <text x="66" y="50" fill="#4A5F5C" font-size="13">Free on JetBrains Marketplace</text>
+    <rect x="65" y="62" width="167" height="31" rx="15.5" fill="#115D57"/>
+    <text x="148" y="82" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold">Get from Marketplace</text>
+  </g>
+</svg>

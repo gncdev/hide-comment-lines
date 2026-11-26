@@ -18,7 +18,11 @@ Tested with Go, Java, Python, and XML. Support for other languages depends on ho
 
 ## Installation
 
-In **Settings → Plugins**, open the gear menu, choose **Install Plugin from Disk…**, and select the plugin ZIP.
+[![Get Hide Comment Lines from JetBrains Marketplace](docs/images/marketplace.svg)](https://plugins.jetbrains.com/plugin/36470-hide-comment-lines)
+
+Open **Settings → Plugins → Marketplace**, search for **Hide Comment Lines**, and click **Install**.
+
+To install a local ZIP, open **Settings → Plugins**, then open the gear menu, choose **Install Plugin from Disk…**, and select the plugin ZIP.
 
 To build the ZIP from source, use Python 3.9 or later and a JDK compatible with your IDE’s SDK. Pass the path to your local IDE installation:
 
